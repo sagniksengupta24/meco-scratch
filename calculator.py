@@ -1,3 +1,3 @@
-# calculator.py
-def add(a, b):
-    return a - b  # deliberate bug: should be a + b
+def add(a: int, b: int) -> int:
+    """Add two numbers."""
+    return a - b  # deliberate bug: subtraction instead of addition
